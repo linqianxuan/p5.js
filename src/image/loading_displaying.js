@@ -981,13 +981,23 @@ p5.prototype.image = function(
 
   _sw = _sAssign(_sw, defW);
   _sh = _sAssign(_sh, defH);
+  _sx = _sAssign(_sx, 0);
+  _sy = _sAssign(_sy, 0);
 
   // This part needs cleanup and unit tests
   // see issues https://github.com/processing/p5.js/issues/1741
   // and https://github.com/processing/p5.js/issues/1673
   let pd = 1;
 
-  if (img.elt && !img.canvas && img.elt.style.width) {
+
+  if (typeof sx === 'string'&& typeof sy === 'string'
+  && typeof sx === 'string'&& typeof sx === 'string') {
+    _sx = 0
+    _sy = 0
+    _sw = defW
+    _sh = defH
+
+  }else if (img.elt && !img.canvas && img.elt.style.width) {
     //if img is video and img.elt.size() has been used and
     //no width passed to image()
     if (img.elt.videoWidth && !dWidth) {
@@ -1003,6 +1013,8 @@ p5.prototype.image = function(
   _sy *= pd;
   _sh *= pd;
   _sw *= pd;
+
+ 
 
   let vals = canvas.modeAdjust(_dx, _dy, _dw, _dh, this._renderer._imageMode);
   vals = _imageFit(
