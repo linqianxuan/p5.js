@@ -56,12 +56,7 @@ Anyone interested can volunteer to be a steward! There are no specific requireme
 
 * [@qianqianye](https://github.com/qianqianye) - p5.js Project Lead
 * [@outofambit](https://github.com/outofambit) - p5.js Mentor
-* [@lmccart](https://github.com/lmccart)
-* [@limzykenneth](https://github.com/limzykenneth)
-* [@stalgiag](https://github.com/stalgiag)
-* [@montoyamoraga](https://github.com/montoyamoraga)
-* [@dhowe](https://github.com/dhowe)
-* [@rahulm2310](https://github.com/rahulm2310)
+* [@lmccart](https://github.com/lmccart)- p5.js Creator
 
 | Area                                                                                 | Steward(s)                                                                                                               |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
@@ -587,10 +582,10 @@ We recognize all types of contributions. This project follows the [all-contribut
       <td align="center"><a href="https://github.com/TetroGem"><img src="https://avatars.githubusercontent.com/u/19498453?v=4?s=100" width="100px;" alt="TetroGem"/><br /><sub><b>TetroGem</b></sub></a><br /><a href="#ideas-TetroGem" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center"><a href="https://ggorlen.github.io/"><img src="https://avatars.githubusercontent.com/u/17895165?v=4?s=100" width="100px;" alt="ggorlen"/><br /><sub><b>ggorlen</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=ggorlen" title="Code">💻</a></td>
     </tr>
+    <tr>
+      <td align="center"><a href="https://github.com/raclim"><img src="https://avatars.githubusercontent.com/u/43053081?v=4?s=100" width="100px;" alt="raclim"/><br /><sub><b>raclim</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=raclim" title="Code">💻</a></td>
+    </tr>
   </tbody>
-  <tfoot>
-    
-  </tfoot>
 </table>
 
 <!-- markdownlint-restore -->
